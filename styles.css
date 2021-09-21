@@ -5,6 +5,40 @@ html {
 body {
     background-image: url("Images/ict_background.jpg");
     background-size: cover;
+<<<<<<< HEAD
+=======
+}
+#nav {
+    width: 100%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    border: 1px solid;
+    font-size: 14pt;
+    text-align: right;
+    background-color: white;
+}
+#logo {
+    position: relative;
+    width: 200px;
+    margin-top: -45px;
+    margin-left: 0px;
+    max-width: 100%;
+}
+nav {
+    display: inline-block;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+} 
+li {
+    float: left;
+}
+a {
+    display: block;
+>>>>>>> b36b8f1ef80ba6118a1b611879d34b59b84e8f44
 }
 li a:hover {
     background-color:rgb(127, 214, 255);
