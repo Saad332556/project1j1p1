@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url("Images/achtergrond.jpg");
+    background-size: cover;
+}
+body {
+    width: 100%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    border: 1px solid;
+    text-align: right;
+    font-size: 14pt;
+    background-color: white;
+}
+#logo {
+    position: relative;
+    width: 200px;
+    margin-top: -45px;
+    margin-left: 0px;
+    max-width: 100%;
+}
+nav {
+    display: inline-block;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+} 
+li {
+    float: left;
+}
+a {
+    display: block;
+}
+li a:hover {
+    background-color:aquamarine;
+}
