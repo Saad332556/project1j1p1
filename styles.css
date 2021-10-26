@@ -72,7 +72,7 @@ li a:hover {
     width: 70%;
     border: 4px solid rgb(78, 122, 218);
     padding: 3rem;
-    background: white;
+    background: rgba(255, 255, 255, 0.9);
     text-align: center;
 }
 .container {
