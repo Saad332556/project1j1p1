@@ -38,7 +38,7 @@ li a:hover {
 #li2 #a2:hover {
     background: rgb(119, 202, 250);
 }
-#info {
+#info, #aboutus, #faq {
     margin-top: 5rem;
     margin-left: auto;
     margin-right: auto;
@@ -53,18 +53,8 @@ li a:hover {
     margin-left: auto;
     margin-right: auto;
 }
-#overons {
+#overons, #faq, #form {
     text-align: center;
-}
-#aboutus {
-    margin-top: 5rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5rem;
-    width: 87%;
-    border: 4px solid rgb(78, 122, 218);
-    padding: 3rem;
-    background: rgba(255, 255, 255, 0.9);
 }
 .flex-container {
     display: flex;
@@ -73,6 +63,67 @@ li a:hover {
     margin: 20px;
     width: 50%;
     text-align: center;
+}
+#contact {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    width: 70%;
+    border: 4px solid rgb(78, 122, 218);
+    padding: 3rem;
+    background: white;
+    text-align: center;
+}
+.container {
+    margin: 0 auto;
+    padding: 5%;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+    text-align: center;
+}
+input,
+textarea,
+label {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: #828282;
+}
+input,
+textarea {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #828282;
+}
+input[type=submit] {
+    background-color: #545557;
+    padding: 15px 0;
+    color: white;
+    font-size: 18px;
+    border-bottom: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+input[type=submit]:hover {
+    background: rgba(64, 121, 207, 0.726);
+    color: #1b1c1e;
+}
+input,
+textarea {
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+input:focus,
+textarea:focus {
+    outline: 1px solid #828282;
 }
 footer {
     position: relative;

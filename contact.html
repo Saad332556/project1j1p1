@@ -12,8 +12,8 @@
     <meta name="copyright" content="copyright">
 
     <!-- Links -->
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -50,7 +50,27 @@
   </nav>
   <main>
     <div id="contact">
-      
+      <div class="container">
+        <h1 id="contactus">Contactformulier</h1>
+        <p>Bij vragen of opmerkingen kunt u ons een berichtje sturen, we proberen zo snel mogelijk te reageren.</p>
+        <form action="mail.php" method="POST">
+            <label for="name">Naam:</label> 
+            <input type="text" name="name" id="name" required>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <br>
+            <label for="subject">Onderwerp:</label>
+            <input type="text" name="subject" id="subject" required>
+            <br>
+            <br>
+            <label for="message">Uw bericht:</label>
+            <textarea name="message" cols="30" rows="6" required></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>
     </div>
   </main>
   <footer>
