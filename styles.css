@@ -20,25 +20,7 @@ li a:hover {
     background: rgba(255, 255, 255, 0.9);
     text-align: center;
 }
-#menu2 {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: #61d6eb6e;
-    height: 100%;
-    overflow: auto;
-}
-#li2 #a2 {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-#li2 #a2:hover {
-    background: rgb(119, 202, 250);
-}
-#info, #aboutus, #faq {
+#info, #aboutus, #faq, #contact {
     margin-top: 5rem;
     margin-left: auto;
     margin-right: auto;
@@ -53,26 +35,18 @@ li a:hover {
     margin-left: auto;
     margin-right: auto;
 }
-#overons, #faq, #form {
+#overons, #faq, #form, #aboutus, #info {
     text-align: center;
 }
-.flex-container {
-    display: flex;
-}
-.flex-container > #about_saad, #about_semy {
-    margin: 20px;
-    width: 50%;
+.cool {
+    color: rgb(57, 188, 228);
+    width: 100%;
     text-align: center;
+}
+.cool:hover {
+    color: rgb(109, 228, 255);
 }
 #contact {
-    margin-top: 5rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5rem;
-    width: 70%;
-    border: 4px solid rgb(78, 122, 218);
-    padding: 3rem;
-    background: rgba(255, 255, 255, 0.9);
     text-align: center;
 }
 .container {
@@ -80,7 +54,7 @@ li a:hover {
     padding: 5%;
 }
 form {
-    max-width: 600px;
+    max-width: 400px;
     margin: 0 auto;
     text-align: left;
     padding: 20px 0;
